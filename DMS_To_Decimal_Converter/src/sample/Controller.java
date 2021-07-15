@@ -24,6 +24,8 @@ public class Controller{
     @FXML
     private TextField decimalOutput;
 
+    // TODO account for incorrect user input
+
     public void DMSToDecimal() {
         Double dInput = Double.parseDouble(this.degreesInput.getText());
         Double mInput = Double.parseDouble(this.minutesInput.getText());
